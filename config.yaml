@@ -1,0 +1,12 @@
+#  Aws filtering option
+# aws_region: 'us-east-1'
+risk_weights:
+  public_access_enabled: 100 # Block Public Access OFF or permissive policy/ACL
+  acl_public_read: 80
+  policy_public_read: 90
+  encryption_disabled: 40
+  versioning_disabled: 20
+  logging_disabled: 15
+# sensitive_patterns: # Optional regex patterns
+#   - '.*password.*\.txt'
+#   - '.*secret_key.*'
