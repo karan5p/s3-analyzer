@@ -10,3 +10,14 @@ risk_weights:
 # sensitive_patterns: # Optional regex patterns
 #   - '.*password.*\.txt'
 #   - '.*secret_key.*'
+
+# SQLite database configuration (simple file-based, no server required)
+sqlite:
+  db_file: "s3_analyzer.db"
+# MySQL/MariaDB configuration (commented out - keep for reference)
+# database:
+#   host: "localhost"
+#   port: 3306
+#   user: "root"
+#   password: ""
+#   db: "s3_analyzer"
